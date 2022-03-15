@@ -1,4 +1,4 @@
-# Creation Table Schemas in Synapse Analytics
+# Creation Table Schemas in Synapse Analytics.
 ## Star Schema
 Como o Synapse Analytics é um sistema MPP (processamento paralelo maciço), você deve considerar como os dados são distribuídos em seu design de tabela, em vez de sistemas SMP (multiprocessamento simétrico), como bancos de dado OLTP, como o Banco de Dados SQL do Azure. A categoria da tabela geralmente determina qual opção escolher para a distribuição da tabela.
 <p>
