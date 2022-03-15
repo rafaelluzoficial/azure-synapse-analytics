@@ -1,4 +1,4 @@
-# Usando índices e distribuição de tabelas para melhorar o desempenho.
+# Usando índices e distribuição de tabelas para melhorar o desempenho
 Quando uma tabela é criada, por padrão, a estrutura de dados não tem índices e é chamada de heap.<br>
 Uma estratégia de indexação bem projetada pode reduzir as operações de E/S de disco e consumir menos recursos do sistema, o que melhora o desempenho das consultas, especialmente ao usar filtragens, verificações e junções nelas.<br>
 Os pools de SQL dedicados têm as seguintes opções de indexação disponíveis:
